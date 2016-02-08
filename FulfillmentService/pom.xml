@@ -32,15 +32,16 @@
 
     <properties>
         <java.version>1.6</java.version>
+        <start-class>com.example.Startup</start-class>
     </properties>
 
 
     <build>
         <plugins>
-           <!--   <plugin>
+              <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-            </plugin>-->
+            </plugin>
         </plugins>
     </build>
 
