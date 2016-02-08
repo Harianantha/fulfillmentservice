@@ -20,4 +20,12 @@ public class FulfillmentController {
     //	return null;
         
     }
+	 @RequestMapping(method=RequestMethod.GET)
+	    public String healthcheck() {
+			 String methodName="fulfill";
+		    	LOGGER.entering(CLASSNAME, methodName);
+		    	LOGGER.exiting(CLASSNAME, methodName);
+	    	return "Service is running"+System.currentTimeMillis();
+	        
+	    }
 }
